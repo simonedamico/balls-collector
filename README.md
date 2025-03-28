@@ -1,4 +1,4 @@
-Mini Apps Web 3 Template
+# Mini Apps Web 3 Template
 
 The intention for this project is to enable Mini App Builders to easily create new Next.js mini apps.
 
@@ -51,6 +51,10 @@ Then fill in the required variables:
 
 Find your **App ID** in the [Developer Portal](https://developer.worldcoin.org/) (`Configuration > Basic`).
 
+#### Incognito Action
+
+Define an _action_ in the developer portal under the Incognito Actions tab, copy it, and include it in the .env file
+
 ---
 
 ## ▶️ Running the Project
@@ -86,8 +90,6 @@ Go to the [Developer Portal](https://developer.worldcoin.org/) and configure:
 - **App URL:** Set it to your NGROK-generated URL.
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/4d2c2c1b-cab4-40a7-ad6d-f91d1a77ecc5" />
-
-- **Incognito Actions**: Define an action and use it within `components/Verify/index.tsx`.
 
 ---
 
