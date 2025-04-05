@@ -1,20 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gotta Catch Them Balls! 🎯
 
-## Getting Started
+A social app where users can collect other Worldcoin users, with a fun "gotta catch them balls" theme referencing the Worldcoin iris scanning technology.
 
-First, run the development server:
+## Features
 
+- Worldcoin verification for unique human identity
+- Collect other verified Worldcoin users
+- View your collection of unique humans
+- One-time collection per user
+- Modern, responsive UI with fun animations
+
+## Prerequisites
+
+- Node.js 18+ and npm/pnpm
+- A Worldcoin developer account
+- Worldcoin app credentials (App ID)
+
+## Setup
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd balls-collector
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+cd my-app
+pnpm install
+```
+
+3. Create a `.env.local` file in the `my-app` directory with your Worldcoin credentials:
+```env
+NEXT_PUBLIC_WORLDCOIN_APP_ID=your_app_id_here
+```
+
+4. Start the development server:
+```bash
+pnpm dev
+```
+
+## How to Use
+
+1. Visit the app and click "Verify Yourself" to start
+2. Complete the Worldcoin verification process
+3. Once verified, you can start collecting other Worldcoin users
+4. View your collection in the "View Collection" page
+5. Each user can only be collected once
+
+## Technical Details
+
+- Built with Next.js 14 and TypeScript
+- Uses Worldcoin Mini App SDK for verification
+- Implements client-side storage for user collections
+- Responsive design with Tailwind CSS
+- Modern UI with animations and transitions
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Worldcoin for their identity verification technology
+- Next.js team for the amazing framework
+- All contributors and users of the app
 
 ## World ID Verification Setup
 
